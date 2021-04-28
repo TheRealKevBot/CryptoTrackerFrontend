@@ -60,7 +60,7 @@
 
 
 .view-name {
-  padding-left: 18rem;
+  padding-left: 1rem;
 }
 
 .avatar {
@@ -82,6 +82,3 @@
   height: 100vh;
 }
 
-.footer{
-  background-color: black;
-} 
