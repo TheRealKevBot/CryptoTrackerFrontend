@@ -4,7 +4,7 @@ import Header from '../Components/Header'
 
 export default function News() {
     
-    const [pageName, setPageName] = useState('News')
+    const [pageName] = useState('News')
 
     return (
         <div className='news'>

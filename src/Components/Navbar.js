@@ -9,32 +9,34 @@ export default function Navbar() {
 
     return (
         <div className='sidebar'>
-            <img className='logo' src={logo2} alt='CryptoTracker Logo' />
-            <Link to='/'>
+            <Link to='/' className='link'>
+                <img className='logo' src={logo2} alt='CryptoTracker Logo' />
+            </Link>
+            <Link to='/' className='link'>
                 <span className='navlink'>
                     <Icon.Home className='navlink-icon'/>
                     <h1 className='navlink-name'>Home</h1>
                 </span>
             </Link>
-            <Link to='/Watching'>
+            <Link to='/Watching' className='link'>
                 <span className='navlink'>
                     <Icon.Eye className='navlink-icon'/>
                     <h1 className='navlink-name'>Watching</h1>
                 </span>
             </Link>
-            <Link to='/Market'>
+            <Link to='/Market' className='link'>
                 <span className='navlink'>
                     <Icon.DollarSign className='navlink-icon'/>
                     <h1 className='navlink-name'>Market</h1>
                 </span>
             </Link>
-            <Link to='/News'>
+            <Link to='/News' className='link'>
                 <span className='navlink'>
                     <Icon.BookOpen className='navlink-icon'/>
                     <h1 className='navlink-name'>News</h1>
                 </span>
             </Link>
-            <Link to='/Notifications'>
+            <Link to='/Notifications' className='link'>
                 <span className='navlink'>
                     <Icon.Bell className='navlink-icon'/>
                     <h1 className='navlink-name'>Notifications</h1>

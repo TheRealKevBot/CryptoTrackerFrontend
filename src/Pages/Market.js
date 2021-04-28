@@ -4,7 +4,7 @@ import Header from '../Components/Header'
 
 export default function Market() {
     
-    const [pageName, setPageName] = useState('Market')
+    const [pageName] = useState('Market')
 
     return (
         <div className='market'>
