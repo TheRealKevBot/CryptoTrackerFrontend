@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import { Redirect, Route } from 'react-router-dom';
 
-import Header from './Header'
-
 import Home from '../Pages/Home'
 import Market from '../Pages/Market'
 import News from '../Pages/News'

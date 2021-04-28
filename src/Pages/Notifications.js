@@ -4,7 +4,7 @@ import Header from '../Components/Header'
 
 export default function Notifications() {
 
-    const [pageName, setPageName] = useState('Notifications')
+    const [pageName] = useState('Notifications')
     
     return (
         <div className='notifications'>

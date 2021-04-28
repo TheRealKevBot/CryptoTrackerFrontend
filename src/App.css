@@ -15,20 +15,23 @@
   z-index: 1;
 }
 
-.logo{
+.logo {
   width:fit-content;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: .80rem;
   width: 90%;
   margin-bottom: .5rem;
 }
 
-.logo:hover{
+.logo:hover {
   cursor: pointer;
 }
 
-.navlink{
-  color: white;
+.link, .link:hover, .link:active, .link:visited, .link:focus {
+  text-decoration: none;
+}
+
+.navlink {
+  color: ivory;
   display: flex;
   justify-content: baseline;
   align-items: center;
@@ -40,11 +43,11 @@
   cursor: pointer;
 }
 
-.navlink-name{
+.navlink-name {
   font-size: 16pt;
 }
 
-.navlink-icon{
+.navlink-icon {
   padding-right: 1.5rem;
 }
 
@@ -52,12 +55,12 @@
   background-color: grey;
   display: flex;
   justify-content: space-between;
+  box-shadow: inset 300px -150px 300px rgba(0,0,0,0.25), 0 6px 0 rgba(0,0,0,.80);
 } 
 
 .header-view {
-  color: white;
+  color: ivory;
 }
-
 
 .view-name {
   padding-left: 1rem;
@@ -68,17 +71,39 @@
 }
 
 .main {
-  background-color: antiquewhite;
+  background-color: grey;
   text-align: center;
   position: fixed;
   top: 0;
   width: 100%;
   display: flex;
   flex-direction: column;
+  box-shadow: inset 750px -250px 1500px rgba(0,0,0,0.25);
 }
 
-.feed{
+.feed {
   padding-left: 17rem;
   height: 100vh;
 }
+
+.home {
+  color: ivory;
+}
+
+.market {
+  color: ivory;
+}
+
+.news {
+  color: ivory;
+} 
+
+.notifications {
+  color: ivory;
+}
+
+.watching {
+  color: ivory;
+}
+
 

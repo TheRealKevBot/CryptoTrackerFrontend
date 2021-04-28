@@ -4,7 +4,7 @@ import Header from '../Components/Header'
 
 export default function Watching() {
     
-    const [pageName, setPageName] = useState('Watching')
+    const [pageName] = useState('Watching')
 
     return (
         <div className='watching'>

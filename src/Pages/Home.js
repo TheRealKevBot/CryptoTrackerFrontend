@@ -4,7 +4,7 @@ import Header from '../Components/Header';
 
 export default function Home() {
 
-    const [pageName, setPageName] = useState('Home')
+    const [pageName] = useState('Home')
 
     return (
         <div className='home'>
