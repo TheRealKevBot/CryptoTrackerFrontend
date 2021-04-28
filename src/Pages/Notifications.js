@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { useState } from 'react'
+
+import Header from '../Components/Header'
 
 export default function Notifications() {
+
+    const [pageName, setPageName] = useState('Notifications')
     
     return (
-        <div>
-            
+        <div className='notifications'>
+            <span className='header-container'>
+                <Header pageName={pageName}/>
+            </span>
+            <span className='notifications-feed'>
+                <h1>Notifications</h1>
+            </span>
         </div>
     )
 }
